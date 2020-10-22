@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Task1</h2>
+            <p class="task">
+                Напиши функцию `delay(ms)`, которая возвращает промис, переходящий в состояние
+                `"resolved"` через `ms` миллисекунд. Значением исполнившегося промиса должно
+                быть то кол-во миллисекунд которое передали во время вызова функции `delay`.
+            </p>
+            <button data-action="start1">Start</button>
+            <span>*Результаты в консоли</span>
+        </section>
+        <section>
+            <h2>Task2</h2>
+            <p class="task">
+                Перепиши функцию `toggleUserState()` так, чтобы она не использовала
+                callback-функцию `callback`, а принимала всего два параметра `allUsers` и
+                `userName` и возвращала промис.
+            </p>
+            <button data-action="start2">Start</button>
+            <span>*Результаты в консоли</span>
+        </section>
+        <section>
+            <h2>Task3</h2>
+            <p class="task">
+                Перепиши функцию `makeTransaction()` так, чтобы она не использовала
+                callback-функции `onSuccess` и `onError`, а принимала всего один параметр
+                `transaction` и возвращала промис.
+            </p>
+            <button data-action="start3">Start</button>
+            <span>*Результаты в консоли</span>
+        </section>
+
+    </main>
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>
